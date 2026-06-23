@@ -40,7 +40,10 @@ body {
     padding: 5px 10px;
     width: fit-content;
 }
-
+.Tag:hover {
+    background-color: hsl(47, 88%, 41%);
+    cursor: pointer;
+}
 p {
     margin: 10px 0;
     font-weight: 400;
@@ -67,6 +70,10 @@ p {
     
     height: 2.5em;
     gap: 10px
+}
+.Author:hover{
+    cursor: pointer;
+    color: hsl(47, 88%, 32%);
 }
 
 .PicText{
